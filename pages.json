@@ -452,32 +452,32 @@
   },
   "tabBar": {
     "color": "#999",
-    "selectedColor": "#333",
+    "selectedColor": "#49c24f",
     "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "static/image/index_gray.png",
-        "selectedIconPath": "static/image/index_black.png"
+        "iconPath": "static/image/index_gray_2.png",
+        "selectedIconPath": "static/image/index_green.png"
       },
       {
         "pagePath": "pages/classify/classify",
         "text": "分类",
-        "iconPath": "static/image/classify_gray.png",
-        "selectedIconPath": "static/image/classify_black.png"
+        "iconPath": "static/image/classify_gray_2.png",
+        "selectedIconPath": "static/image/classify_green.png"
       },
       {
         "pagePath": "pages/cart/index/index",
         "text": "购物车",
-        "iconPath": "static/image/cart_gray.png",
-        "selectedIconPath": "static/image/cart_black.png"
+        "iconPath": "static/image/cart_gray_2.png",
+        "selectedIconPath": "static/image/cart_green.png"
       },
       {
         "pagePath": "pages/member/index/index",
         "text": "我的",
-        "iconPath": "static/image/user_gray.png",
-        "selectedIconPath": "static/image/user_black.png"
+        "iconPath": "static/image/user_gray_2.png",
+        "selectedIconPath": "static/image/user_green.png"
       }
     ]
   },
