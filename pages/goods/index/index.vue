@@ -65,12 +65,12 @@
 				<!-- 促销end -->
 
 				<!-- 规格 -->
-				<view class='cell-item goods-title-item' v-if="isSpes">
+				<view class='cell-item goods-title-item' @click="toshow()" v-if="isSpes">
 					<view class="cell-item-hd">
 						<view class='cell-item-hd'>
 							<view class='cell-hd-title'>规格</view>
 						</view>
-						<view class='cell-item-bd' @click="toshow()">
+						<view class='cell-item-bd'>
 							<text class='cell-bd-text'>{{ product.spes_desc || ''}}</text>
 						</view>
 					</view>
