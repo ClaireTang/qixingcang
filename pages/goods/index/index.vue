@@ -65,12 +65,17 @@
 				<!-- 促销end -->
 
 				<!-- 规格 -->
-				<view class='cell-item goods-title-item cell-item-mid' v-if="isSpes">
-					<view class='cell-item-hd'>
-						<view class='cell-hd-title'>规格</view>
+				<view class='cell-item goods-title-item' v-if="isSpes">
+					<view class="cell-item-hd">
+						<view class='cell-item-hd'>
+							<view class='cell-hd-title'>规格</view>
+						</view>
+						<view class='cell-item-bd' @click="toshow()">
+							<text class='cell-bd-text'>{{ product.spes_desc || ''}}</text>
+						</view>
 					</view>
-					<view class='cell-item-bd' @click="toshow()">
-						<text class='cell-bd-text'>{{ product.spes_desc || ''}}</text>
+					<view class='cell-item-ft'>
+						<image class='cell-ft-next icon' src='/static/image/right.png'></image>
 					</view>
 				</view>
 				<!-- 规格end -->
