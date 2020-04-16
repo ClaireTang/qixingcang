@@ -83,7 +83,7 @@
 					<view class='img-list-item-r little-right'>
 						<view class='little-right-t'>
 							<view class='goods-name list-goods-name' @click="goodsDetail(item.products.goods_id)">{{ item.products.name || ''}}</view>
-							<view class='goods-price'>￥{{ item.products.price || ''}}</view>
+							<view class='goods-price'>￥{{ Math.round(item.products.price*100)/100 || ''}}</view>
 						</view>
 						<view class="romotion-tip" v-if="item.products.promotion_list">
 							<view class="romotion-tip-item" :class="v.type !== 2 ? 'bg-gray' : ''" v-for="(v, k) in item.products.promotion_list" :key="k">
